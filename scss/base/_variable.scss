@@ -1,0 +1,22 @@
+:root {
+    --hue: 240;
+    --first-color: hsl(var(--hue), 16%, 18%);
+    --first-color-alt: hsl(var(--hue), 16%, 12%);
+    --title-color: hsl(var(--hue), 8%, 15%);
+    --text-color: hsl(var(--hue), 8%, 35%);
+    --body-color: hsl(var(--hue), 100%, 99%);
+    --container-color: #fff;
+
+    --body-font: "Poppins", sans-serif;
+    --fs-big: 1.5rem;
+    --fs-md: 0.938rem;
+
+    --zi-modal: 1000;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --fs-big: 1.75rem;
+        --fs-md: 1rem;
+    }
+}
